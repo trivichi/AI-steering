@@ -1,0 +1,97 @@
+# === Python cache & compiled files ===
+__pycache__/
+*.py[cod]
+*$py.class
+
+# === Virtual environment ===
+.venv/
+venv/
+env/
+ENV/
+.venv.bak/
+
+# === IDE & Editor settings ===
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# === OS-specific files ===
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# === Logs, temp files & build artifacts ===
+*.log
+*.tmp
+*.bak
+*.old
+*.orig
+*.pid
+*.seed
+*.out
+
+# === Python packaging / build ===
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+*.manifest
+*.spec
+
+# === Virtual environment exports ===
+*.env
+.env.*
+.envrc
+.env.local
+.env.development
+.env.production
+
+# === Cache directories ===
+.cache/
+.tox/
+.mypy_cache/
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# === Jupyter / Notebooks (if used) ===
+.ipynb_checkpoints/
+*.ipynb
+
+# === Media & large data files (for AI / CV) ===
+*.mp4
+*.avi
+*.mov
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.npy
+*.npz
+*.h5
+*.ckpt
+*.pth
+*.pt
+*.onnx
+*.weights
+*.model
+*.dat
+
+# === Node or frontend build folders (if fullstack repo) ===
+frontend/node_modules/
+frontend/dist/
+frontend/.next/
+frontend/build/
+
+# === Misc ===
+tmp/
+logs/
+__logs__/
+uploads/
+results/
+output/
